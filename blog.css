@@ -1,0 +1,73 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+    float: left
+}
+#top{
+    background-color: rgb(55, 182, 175);
+}
+.contenedor{
+    width: 700px;
+    margin: 20 auto;
+    float: left;
+    float: center;
+    
+    
+}
+#contenido{
+    width: 100%;
+    float: left;
+    line-height: 1.5;
+}
+
+#logo{
+  background-image: url(logo2.jpg);
+  width: 233px;
+  height: 140px;
+}
+nav :hover{
+    background-color: #652977; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(110, 174, 218);
+    padding: 10px 20px;
+}
+
+#sidebar {
+    margin-top: 42px;
+    width: 21%;
+    float: right;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: max-content;    
+}
+li a{
+    text-decoration: none;
+    color: rgb(110, 174, 218);
+}
+li{
+    color: rgb(110, 174, 218);
+}
+h2{
+    text-align: center;
+    color: rgb(110, 174, 218);
+}
+.foto{
+    border-radius: 15px;
+}
+video{
+    border-radius: 10px;
+}
+#footer{
+    text-align: center;
+}
+li a:hover{
+    background-color: #652977;
+    border-radius: 5px;
+}
